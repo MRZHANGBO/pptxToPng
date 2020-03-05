@@ -1,0 +1,6 @@
+framework module pptxToPng {
+  umbrella header "pptxToPng-umbrella.h"
+
+  export *
+  module * { export * }
+}

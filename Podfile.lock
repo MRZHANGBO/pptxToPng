@@ -1,0 +1,16 @@
+PODS:
+  - pptxToPng (0.1.0)
+
+DEPENDENCIES:
+  - pptxToPng (from `../`)
+
+EXTERNAL SOURCES:
+  pptxToPng:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  pptxToPng: 207056c4132c734ba3f72c5fd280c444ff3f61f7
+
+PODFILE CHECKSUM: 5295dd922a0a56dba9097c31c779f62fda267d17
+
+COCOAPODS: 1.6.1
