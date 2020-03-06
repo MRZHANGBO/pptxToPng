@@ -1,0 +1,22 @@
+{
+  "name": "pptxToPng",
+  "version": "0.1.0",
+  "summary": "A short description of pptxToPng.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MRZHANGBO/pptxToPng",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MRZHANGBO": "zb_apple1993@163.com"
+  },
+  "source": {
+    "git": "https://github.com/MRZHANGBO/pptxToPng.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "pptxToPng/Classes/**/*"
+}

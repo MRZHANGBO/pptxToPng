@@ -7,12 +7,13 @@
 //
 
 #import "ZBAppDelegate.h"
-
+#import <pptxpngManager.h>
 @implementation ZBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    pptxpngManager *manager= [[pptxpngManager alloc]init];
+    [manager saveImageFile];
     return YES;
 }
 

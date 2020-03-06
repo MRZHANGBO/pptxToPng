@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2534937265A266F82834A0FB8F5FEAD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		2765A92E9564ABCD4C1A7DAF1423DE22 /* pptxpngManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2E3593ADFE80F7AE3F0974B3E8A1F0 /* pptxpngManager.m */; };
+		29CFD446F632AF5F06EBEA7B048407C6 /* Pods-pptxToPng_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D94C93AA6BEA454CFB6B4ABBA59B5C /* Pods-pptxToPng_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6305D3CA7748F43DFC108C43044F9A86 /* pptxToPng-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EF8CEED3AD73A2A90435C5AD2D3260 /* pptxToPng-dummy.m */; };
+		775188438CDD8B7A7BDB5CAC75C54637 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		7E1F8D11F17E3B4C95B1829501F98C2E /* pptxToPng-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FACF0BA4FD5FBFA54A2F7C331A2BE2A /* pptxToPng-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C225294E9BEE4C3A3BCF5D7F4C28C00 /* Pods-pptxToPng_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7E75D4EF34DEE6AA21BC9E88B75648 /* Pods-pptxToPng_Example-dummy.m */; };
+		A368CA1D9FEEA52287269EAABE8A426D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		AB761C03A804873D3A671BC74C8B3F80 /* pptxpngManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FED905DBA898B4742C6F5DB52C7A2350 /* pptxpngManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B76DC0EEEA5C51FC8FCE9FF0E5952989 /* Pods-pptxToPng_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7C4BBC05BB76D0379913796F429EDA /* Pods-pptxToPng_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C274D7286434319F75389F507A51E1D5 /* Pods-pptxToPng_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E2A41B31C75A66F4FF08B069AC9117 /* Pods-pptxToPng_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38325A4B64968BE8B268B8AFCF94F3A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02323B27740EB3C90AD52D7A5896C2D4;
+			remoteInfo = "Pods-pptxToPng_Example";
+		};
+		6204211445FDE665494709784ABCCC1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6533AB15B22B67796F19FC1FCBC3969;
+			remoteInfo = pptxToPng;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01BB7A4FD7DBFC0B3A6596FA0A335C0B /* Pods-pptxToPng_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pptxToPng_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D7E75D4EF34DEE6AA21BC9E88B75648 /* Pods-pptxToPng_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pptxToPng_Example-dummy.m"; sourceTree = "<group>"; };
+		26EF8CEED3AD73A2A90435C5AD2D3260 /* pptxToPng-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "pptxToPng-dummy.m"; sourceTree = "<group>"; };
+		2FACF0BA4FD5FBFA54A2F7C331A2BE2A /* pptxToPng-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pptxToPng-umbrella.h"; sourceTree = "<group>"; };
+		3215E7A0FFE09017974030DC5DE08D23 /* Pods-pptxToPng_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pptxToPng_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E56E1C177B640105CCEC3949C1BD91E /* Pods_pptxToPng_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pptxToPng_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CEA4AE4EE5A403E620E6DEC7EBB5A05 /* Pods-pptxToPng_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pptxToPng_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4FAA119E7A0C49A1C26C8E9FB3109BC8 /* pptxToPng.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = pptxToPng.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5339D92289F21DCEF3C42205D5D1B15B /* Pods-pptxToPng_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pptxToPng_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		54D94C93AA6BEA454CFB6B4ABBA59B5C /* Pods-pptxToPng_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pptxToPng_Tests-umbrella.h"; sourceTree = "<group>"; };
+		56DC2AE441D609B8B7A0833D305B9E82 /* pptxToPng-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pptxToPng-prefix.pch"; sourceTree = "<group>"; };
+		58D958D1ABA16CE53C4489D432A6A97D /* Pods-pptxToPng_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pptxToPng_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A9EFF86802EA64A43382AE14BACA15C /* Pods-pptxToPng_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-pptxToPng_Example.modulemap"; sourceTree = "<group>"; };
+		6230EDE2EE31EE5FA7D122E4A1D41791 /* Pods-pptxToPng_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pptxToPng_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		658375E70D2A6627E74933835F04634D /* Pods-pptxToPng_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-pptxToPng_Tests.modulemap"; sourceTree = "<group>"; };
+		6B35A5D8DCC94D8061AC506E934459DA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		742BC868043149868A87A2FE4809D145 /* Pods-pptxToPng_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pptxToPng_Tests-Info.plist"; sourceTree = "<group>"; };
+		7FF67793DC45307760FBCB85AB6F6299 /* Pods-pptxToPng_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pptxToPng_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ED23DC54448CAD1202394DDB4104F0C /* Pods-pptxToPng_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pptxToPng_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9F2E3593ADFE80F7AE3F0974B3E8A1F0 /* pptxpngManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = pptxpngManager.m; path = pptxToPng/Classes/pptxpngManager.m; sourceTree = "<group>"; };
+		A1461C1779EB8D621174F7F0C523A4E0 /* Pods-pptxToPng_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pptxToPng_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A8E2A41B31C75A66F4FF08B069AC9117 /* Pods-pptxToPng_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pptxToPng_Tests-dummy.m"; sourceTree = "<group>"; };
+		BB559E92A63174075A9652C1FE175821 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BD537224713C45293A3160D290D18A80 /* pptxToPng.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = pptxToPng.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DAF1232DC29442DFCF4C494B08A082F0 /* pptxToPng-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "pptxToPng-Info.plist"; sourceTree = "<group>"; };
+		DDF7430C256D3939C52309AEE117FE34 /* Pods_pptxToPng_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pptxToPng_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6FEDEC401B864663EE31FB7C977D7FE /* pptxToPng.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = pptxToPng.modulemap; sourceTree = "<group>"; };
+		F1862A8DA38A60946CF04DD59CDF8746 /* Pods-pptxToPng_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pptxToPng_Example-Info.plist"; sourceTree = "<group>"; };
+		FED905DBA898B4742C6F5DB52C7A2350 /* pptxpngManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pptxpngManager.h; path = pptxToPng/Classes/pptxpngManager.h; sourceTree = "<group>"; };
+		FEF45FA578E1613D15CA77C6DC4C60F8 /* pptxToPng.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = pptxToPng.xcconfig; sourceTree = "<group>"; };
+		FF7C4BBC05BB76D0379913796F429EDA /* Pods-pptxToPng_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pptxToPng_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		309FDD422EE168622E4E3418481BDBE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775188438CDD8B7A7BDB5CAC75C54637 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEFE33F2E31C3AD8E83C2C8217469478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A368CA1D9FEEA52287269EAABE8A426D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C74B2DD48A6C61D95852019EEBF3B496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2534937265A266F82834A0FB8F5FEAD6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		009DECF1DF2DD276EF7A258335957330 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41D45D155E240FDBF62E2AA4234B2CAF /* pptxToPng */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		197E0C97C28DB6F538A1D4CAD36EA4B3 /* Pods-pptxToPng_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				658375E70D2A6627E74933835F04634D /* Pods-pptxToPng_Tests.modulemap */,
+				A1461C1779EB8D621174F7F0C523A4E0 /* Pods-pptxToPng_Tests-acknowledgements.markdown */,
+				58D958D1ABA16CE53C4489D432A6A97D /* Pods-pptxToPng_Tests-acknowledgements.plist */,
+				A8E2A41B31C75A66F4FF08B069AC9117 /* Pods-pptxToPng_Tests-dummy.m */,
+				742BC868043149868A87A2FE4809D145 /* Pods-pptxToPng_Tests-Info.plist */,
+				54D94C93AA6BEA454CFB6B4ABBA59B5C /* Pods-pptxToPng_Tests-umbrella.h */,
+				3215E7A0FFE09017974030DC5DE08D23 /* Pods-pptxToPng_Tests.debug.xcconfig */,
+				5339D92289F21DCEF3C42205D5D1B15B /* Pods-pptxToPng_Tests.release.xcconfig */,
+			);
+			name = "Pods-pptxToPng_Tests";
+			path = "Target Support Files/Pods-pptxToPng_Tests";
+			sourceTree = "<group>";
+		};
+		41D45D155E240FDBF62E2AA4234B2CAF /* pptxToPng */ = {
+			isa = PBXGroup;
+			children = (
+				FED905DBA898B4742C6F5DB52C7A2350 /* pptxpngManager.h */,
+				9F2E3593ADFE80F7AE3F0974B3E8A1F0 /* pptxpngManager.m */,
+				7FE7E3B6A0C9A4FE637CD46509329D5E /* Pod */,
+				9E94FF4A160C0DF6CECFB25E737C9BCD /* Support Files */,
+			);
+			name = pptxToPng;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4CF578A053A267B0589C60D5F523AEDE /* Pods-pptxToPng_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5A9EFF86802EA64A43382AE14BACA15C /* Pods-pptxToPng_Example.modulemap */,
+				01BB7A4FD7DBFC0B3A6596FA0A335C0B /* Pods-pptxToPng_Example-acknowledgements.markdown */,
+				4CEA4AE4EE5A403E620E6DEC7EBB5A05 /* Pods-pptxToPng_Example-acknowledgements.plist */,
+				1D7E75D4EF34DEE6AA21BC9E88B75648 /* Pods-pptxToPng_Example-dummy.m */,
+				9ED23DC54448CAD1202394DDB4104F0C /* Pods-pptxToPng_Example-frameworks.sh */,
+				F1862A8DA38A60946CF04DD59CDF8746 /* Pods-pptxToPng_Example-Info.plist */,
+				FF7C4BBC05BB76D0379913796F429EDA /* Pods-pptxToPng_Example-umbrella.h */,
+				6230EDE2EE31EE5FA7D122E4A1D41791 /* Pods-pptxToPng_Example.debug.xcconfig */,
+				7FF67793DC45307760FBCB85AB6F6299 /* Pods-pptxToPng_Example.release.xcconfig */,
+			);
+			name = "Pods-pptxToPng_Example";
+			path = "Target Support Files/Pods-pptxToPng_Example";
+			sourceTree = "<group>";
+		};
+		56D769941FFF47E789DAA3340201897E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDF7430C256D3939C52309AEE117FE34 /* Pods_pptxToPng_Example.framework */,
+				3E56E1C177B640105CCEC3949C1BD91E /* Pods_pptxToPng_Tests.framework */,
+				4FAA119E7A0C49A1C26C8E9FB3109BC8 /* pptxToPng.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FE7E3B6A0C9A4FE637CD46509329D5E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BB559E92A63174075A9652C1FE175821 /* LICENSE */,
+				BD537224713C45293A3160D290D18A80 /* pptxToPng.podspec */,
+				6B35A5D8DCC94D8061AC506E934459DA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9E94FF4A160C0DF6CECFB25E737C9BCD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6FEDEC401B864663EE31FB7C977D7FE /* pptxToPng.modulemap */,
+				FEF45FA578E1613D15CA77C6DC4C60F8 /* pptxToPng.xcconfig */,
+				26EF8CEED3AD73A2A90435C5AD2D3260 /* pptxToPng-dummy.m */,
+				DAF1232DC29442DFCF4C494B08A082F0 /* pptxToPng-Info.plist */,
+				56DC2AE441D609B8B7A0833D305B9E82 /* pptxToPng-prefix.pch */,
+				2FACF0BA4FD5FBFA54A2F7C331A2BE2A /* pptxToPng-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/pptxToPng";
+			sourceTree = "<group>";
+		};
+		BAB98F7A7F0F1701E11F549FDE4155E5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CF578A053A267B0589C60D5F523AEDE /* Pods-pptxToPng_Example */,
+				197E0C97C28DB6F538A1D4CAD36EA4B3 /* Pods-pptxToPng_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				009DECF1DF2DD276EF7A258335957330 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				56D769941FFF47E789DAA3340201897E /* Products */,
+				BAB98F7A7F0F1701E11F549FDE4155E5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02D6DB12807BE9CCE0E54A3FFB4A73F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CFD446F632AF5F06EBEA7B048407C6 /* Pods-pptxToPng_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E3CCB484642F2657698F67492E51318 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB761C03A804873D3A671BC74C8B3F80 /* pptxpngManager.h in Headers */,
+				7E1F8D11F17E3B4C95B1829501F98C2E /* pptxToPng-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D7A8044E58398751282524835ED94A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76DC0EEEA5C51FC8FCE9FF0E5952989 /* Pods-pptxToPng_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02323B27740EB3C90AD52D7A5896C2D4 /* Pods-pptxToPng_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD3237C047F3DA6751FA08910126A08F /* Build configuration list for PBXNativeTarget "Pods-pptxToPng_Example" */;
+			buildPhases = (
+				7D7A8044E58398751282524835ED94A5 /* Headers */,
+				C3A99F1C468E5F982665F13F08C0AA31 /* Sources */,
+				C74B2DD48A6C61D95852019EEBF3B496 /* Frameworks */,
+				6D1BE245AC469CEA1FC81E80C3CE205F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E12E4A3E44C8F83B4A3B424252E5CDC /* PBXTargetDependency */,
+			);
+			name = "Pods-pptxToPng_Example";
+			productName = "Pods-pptxToPng_Example";
+			productReference = DDF7430C256D3939C52309AEE117FE34 /* Pods_pptxToPng_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6533AB15B22B67796F19FC1FCBC3969 /* pptxToPng */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 702AF8B92397D9122791038D72A6D424 /* Build configuration list for PBXNativeTarget "pptxToPng" */;
+			buildPhases = (
+				4E3CCB484642F2657698F67492E51318 /* Headers */,
+				D2AB3577BA49B2166A336E82EA5F1F33 /* Sources */,
+				309FDD422EE168622E4E3418481BDBE5 /* Frameworks */,
+				86A70514A54267B14A8EE9DA596442F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pptxToPng;
+			productName = pptxToPng;
+			productReference = 4FAA119E7A0C49A1C26C8E9FB3109BC8 /* pptxToPng.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6C7A575ACDBFDF159EA449733E3FBC7 /* Pods-pptxToPng_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36F9F057F45A27785FA9F7EEA8526DC0 /* Build configuration list for PBXNativeTarget "Pods-pptxToPng_Tests" */;
+			buildPhases = (
+				02D6DB12807BE9CCE0E54A3FFB4A73F9 /* Headers */,
+				6192A3A5A9B1B7358E3CF939065C8DAB /* Sources */,
+				AEFE33F2E31C3AD8E83C2C8217469478 /* Frameworks */,
+				D4043542B21A1B13F72673FC4E65908A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A378533A27F331D89A015EBCB2D4258 /* PBXTargetDependency */,
+			);
+			name = "Pods-pptxToPng_Tests";
+			productName = "Pods-pptxToPng_Tests";
+			productReference = 3E56E1C177B640105CCEC3949C1BD91E /* Pods_pptxToPng_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 56D769941FFF47E789DAA3340201897E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02323B27740EB3C90AD52D7A5896C2D4 /* Pods-pptxToPng_Example */,
+				D6C7A575ACDBFDF159EA449733E3FBC7 /* Pods-pptxToPng_Tests */,
+				D6533AB15B22B67796F19FC1FCBC3969 /* pptxToPng */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D1BE245AC469CEA1FC81E80C3CE205F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A70514A54267B14A8EE9DA596442F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4043542B21A1B13F72673FC4E65908A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6192A3A5A9B1B7358E3CF939065C8DAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C274D7286434319F75389F507A51E1D5 /* Pods-pptxToPng_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3A99F1C468E5F982665F13F08C0AA31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C225294E9BEE4C3A3BCF5D7F4C28C00 /* Pods-pptxToPng_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AB3577BA49B2166A336E82EA5F1F33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2765A92E9564ABCD4C1A7DAF1423DE22 /* pptxpngManager.m in Sources */,
+				6305D3CA7748F43DFC108C43044F9A86 /* pptxToPng-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E12E4A3E44C8F83B4A3B424252E5CDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pptxToPng;
+			target = D6533AB15B22B67796F19FC1FCBC3969 /* pptxToPng */;
+			targetProxy = 6204211445FDE665494709784ABCCC1D /* PBXContainerItemProxy */;
+		};
+		5A378533A27F331D89A015EBCB2D4258 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-pptxToPng_Example";
+			target = 02323B27740EB3C90AD52D7A5896C2D4 /* Pods-pptxToPng_Example */;
+			targetProxy = 38325A4B64968BE8B268B8AFCF94F3A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		309B76E8DFF9A91C0B470777BF0411E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FF67793DC45307760FBCB85AB6F6299 /* Pods-pptxToPng_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-pptxToPng_Example/Pods-pptxToPng_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pptxToPng_Example/Pods-pptxToPng_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		790E06C64281CD3278ED2421334F606E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEF45FA578E1613D15CA77C6DC4C60F8 /* pptxToPng.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/pptxToPng/pptxToPng-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/pptxToPng/pptxToPng-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/pptxToPng/pptxToPng.modulemap";
+				PRODUCT_MODULE_NAME = pptxToPng;
+				PRODUCT_NAME = pptxToPng;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7B56381B2C3F272E43C95C03CC8242CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5339D92289F21DCEF3C42205D5D1B15B /* Pods-pptxToPng_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-pptxToPng_Tests/Pods-pptxToPng_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pptxToPng_Tests/Pods-pptxToPng_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		833A17325BB39FBF1178BA9C7F00C033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6230EDE2EE31EE5FA7D122E4A1D41791 /* Pods-pptxToPng_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-pptxToPng_Example/Pods-pptxToPng_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pptxToPng_Example/Pods-pptxToPng_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB67C01628F30AC45D75978FAAF7D3D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3215E7A0FFE09017974030DC5DE08D23 /* Pods-pptxToPng_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-pptxToPng_Tests/Pods-pptxToPng_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pptxToPng_Tests/Pods-pptxToPng_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0B173E17E8521D1F662164A00D2EAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEF45FA578E1613D15CA77C6DC4C60F8 /* pptxToPng.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/pptxToPng/pptxToPng-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/pptxToPng/pptxToPng-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/pptxToPng/pptxToPng.modulemap";
+				PRODUCT_MODULE_NAME = pptxToPng;
+				PRODUCT_NAME = pptxToPng;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36F9F057F45A27785FA9F7EEA8526DC0 /* Build configuration list for PBXNativeTarget "Pods-pptxToPng_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB67C01628F30AC45D75978FAAF7D3D7 /* Debug */,
+				7B56381B2C3F272E43C95C03CC8242CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		702AF8B92397D9122791038D72A6D424 /* Build configuration list for PBXNativeTarget "pptxToPng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790E06C64281CD3278ED2421334F606E /* Debug */,
+				B0B173E17E8521D1F662164A00D2EAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD3237C047F3DA6751FA08910126A08F /* Build configuration list for PBXNativeTarget "Pods-pptxToPng_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833A17325BB39FBF1178BA9C7F00C033 /* Debug */,
+				309B76E8DFF9A91C0B470777BF0411E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

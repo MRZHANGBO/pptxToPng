@@ -1,0 +1,6 @@
+framework module Pods_pptxToPng_Tests {
+  umbrella header "Pods-pptxToPng_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
