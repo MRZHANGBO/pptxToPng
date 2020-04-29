@@ -14,6 +14,9 @@
 {
     pptxpngManager *manager= [[pptxpngManager alloc]init];
     [manager saveImageFile];
+    
+    
+    //测试项目一
     return YES;
 }
 
