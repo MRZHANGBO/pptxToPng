@@ -16,7 +16,6 @@
     [manager saveImageFile];
     
     
-    //测试项目一
     //c测试项目二
     return YES;
 }
